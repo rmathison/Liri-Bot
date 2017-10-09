@@ -1,5 +1,3 @@
-console.log('this is loaded');
-
 var twitterKeys = {
     consumer_key: 'VfJEHyi7OTllOGO4Fs6WUHTVq',
     consumer_secret: 'D4qAgS7TDCUTJSo6svsOmvzsPHprkiHYrEiNRpxtwaDWcM9WmG',
@@ -7,4 +5,14 @@ var twitterKeys = {
     access_token_secret: 'SnLYB8T15VaTvQa9dAKAQhzIqb7BVCPnye4DffTsiqgdA',
 }
 
-module.exports = twitterKeys;
+var spotifyKeys = {
+    id: 'd723aa9a7c2a4206b436070611d030f3',
+    secret: '6eb4844bdd4446908df20ed96ee75cbb'
+}
+
+module.exports = {
+
+    twitterKeys: twitterKeys,
+    spotifyKeys: spotifyKeys
+
+}
